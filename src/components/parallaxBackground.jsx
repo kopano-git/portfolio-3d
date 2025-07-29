@@ -1,5 +1,4 @@
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
-import ParallaxBackground from "./components/ParallaxBackground.jsx";
 
 const ParallaxBackground = () => {
   const { scrollYProgress } = useScroll();
@@ -51,7 +50,7 @@ const ParallaxBackground = () => {
             y: mountain2Y,
           }}
         />
-        {/* Mountaine Layer 1 */}
+        {/* Mountain Layer 1 */}
         <motion.div
           className="absolute inset-0 -z-10"
           style={{
