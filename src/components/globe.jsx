@@ -75,7 +75,7 @@ export function Globe({ className, config = GLOBE_CONFIG }) {
     window.addEventListener("resize", onResize);
     onResize();
 
-    const Globe = createGlobe(canvasRef.current, {
+    const globe = createGlobe(canvasRef.current, {
       ...config,
       width: width * 2,
       height: width * 2,
