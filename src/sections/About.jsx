@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import Card from "../components/Card.jsx";
-import { Globe } from "../components/Globe.jsx";
+
 import CopyEmailButton from "../components/CopyEmailButton.jsx";
 import { Frameworks } from "../components/Frameworks.jsx";
+import Globe from "../components/Globe.jsx"
 
 const About = () => {
   const grid2Container = useRef();
@@ -76,6 +77,7 @@ const About = () => {
             />
           </div>
         </div>
+         
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
@@ -85,7 +87,7 @@ const About = () => {
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
-            <Globe />
+           <Globe />
           </figure>
         </div>
         {/* Grid 4 */}

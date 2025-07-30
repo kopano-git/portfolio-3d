@@ -66,7 +66,7 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 ## 🚀 Getting Started
 1. Clone the Repository
 ```bash
-git clone https://github.com/kopano-git/Portfolio-main.git
+git clone https://github.com/kopano-git/portfolio-3d.git
 cd Portfolio
 ```
 2. Install Dependencies
